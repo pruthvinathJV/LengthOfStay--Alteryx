@@ -14,17 +14,17 @@ Input Data files:
     76 attributes
     ~790,000 observations
     
-   HCC Lookup (tells about the riskines of each beneficiary): 199,315 observations
+   HCC Lookup (tells about the riskiness of each beneficiary): 199,315 observations
    
    
 Workflow in Alteryx:
 
 1. cleaned each data set of nulls, '?' etc.
-2. done exploratory data analysis and prepared data sets by remvoing irrelevant attributes
+2. done exploratory data analysis and prepared data sets by removing irrelevant attributes
 3. run the t-tests and correlation tests
-4. in approach 1, taken dependent variable as the continuous variable --> Linear Regression Model
+4. in approach 1, took the dependent variable as the continuous variable --> Linear Regression Model
 5. in approach 2, converted the dependent variable into a categorical variable --> Random forest and Decision tree models
 6. After training the data set, ran the model on test data (created 80:20 samples)
 7. compared between different models
-8. still the model can be improved
+8. still, the model can be improved
    
