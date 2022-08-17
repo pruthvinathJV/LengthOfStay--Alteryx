@@ -1,0 +1,1225 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>JVP.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DESYNPUF_ID" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="ADMTNG_ICD9_DGNS_CD" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="num_visits" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="inpatient vs outpatient" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="HCC_score" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="Length_Of_Stay" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="BENE_SEX_IDENT_CD" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="BENE_RACE_CD" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="BENE_ESRD_IND" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_ALZHDMTA" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_CHF" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_CHRNKIDN" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_CNCR" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_COPD" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_DEPRESSN" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_DIABETES" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_ISCHMCHT" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_OSTEOPRS" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_RA_OA" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="SP_STRKETIA" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="Benficiary_Covered" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="sum_of_amount_per_year" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+            <Field name="Age_Bins" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\JVP.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="258" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DESYNPUF_ID" selected="True" type="String" size="254" />
+            <SelectField field="Year" selected="True" type="Date" size="10" />
+            <SelectField field="num_visits" selected="True" type="Int64" size="8" />
+            <SelectField field="HCC_score" selected="True" type="Int64" size="8" />
+            <SelectField field="BENE_SEX_IDENT_CD_Male" selected="False" type="Int32" size="4" />
+            <SelectField field="BENE_RACE_CD_Hispanic" selected="False" type="Int32" size="4" />
+            <SelectField field="BENE_RACE_CD_Others" selected="False" type="Int32" size="4" />
+            <SelectField field="BENE_RACE_CD_White" selected="False" type="Int32" size="4" />
+            <SelectField field="BENE_ESRD_IND_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_ALZHDMTA_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_CHF_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_CHRNKIDN_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_CNCR_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_COPD_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_DEPRESSN_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_DIABETES_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_ISCHMCHT_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_OSTEOPRS_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_RA_OA_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="SP_STRKETIA_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="Benficiary_Covered_Yes" selected="False" type="Int32" size="4" />
+            <SelectField field="Age_Bins_50-75yrs" selected="False" type="Int32" size="4" />
+            <SelectField field="Age_Bins_&gt;75yrs" selected="False" type="Int32" size="4" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD_Diabetes" selected="False" type="Int32" size="4" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD_Digestive" selected="False" type="Int32" size="4" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD_Genitourinary" selected="False" type="Int32" size="4" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD_Injury" selected="False" type="Int32" size="4" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD_Musculoskeletal" selected="False" type="Int32" size="4" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD_Neoplasms" selected="False" type="Int32" size="4" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD_Respiratory" selected="False" type="Int32" size="4" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD_Supplementary factors" selected="False" type="Int32" size="4" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD_others" selected="False" type="Int32" size="4" />
+            <SelectField field="inpatient vs outpatient_intpatient" selected="False" type="Int32" size="4" />
+            <SelectField field="Bene_Covered_Mnths" selected="False" type="Float" size="4" />
+            <SelectField field="Right_DESYNPUF_ID" selected="False" />
+            <SelectField field="Adm_illness_Strength" selected="False" type="Float" size="4" />
+            <SelectField field="Past_illness_strength" selected="False" type="Float" size="4" />
+            <SelectField field="Bene_Reimburse_IP" selected="False" type="Float" size="4" />
+            <SelectField field="Bene_Resp_IP" selected="False" type="Float" size="4" />
+            <SelectField field="Prim_Payer_Reimb_IP" selected="False" type="Float" size="4" />
+            <SelectField field="Sum_NCH_PRMRY_PYR_CLM_PD_AMT" selected="False" type="Float" size="4" />
+            <SelectField field="Sum_Length_of_stay" selected="False" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings>
+        <Position x="462" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">ADMTNG_ICD9_DGNS_CD</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_5384_755738c82c7c44c79a8b462665962253_\Engine_6328_092c85c0d6d1421e8eef272623018399_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="678.0001" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_57586259071b44afa9b1d27209d09e79_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="821.9999" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_8a14bb23fc1e4f2093a20c769e7687fd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_2a2f9df0adc649f9abe3ef8297837de0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_cc43dba948ee441cb4700a5d366565ec_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_7ae425e4ed934af2b34c0aaa21135998_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_d81e239988314c09aab37a26dc645a04_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_f5ae390265b948fdb7e97c14228cff4e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_05a349d8764f4a1ab698ddd7fcf37a09_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_8d5c222211d746359340ab5b5755b8f6_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558.0001" y="605.9999" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_301b3c2f5b1c43caa066ed7e44f17aeb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings>
+        <Position x="690.0001" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_STRKETIA</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings>
+        <Position x="462" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">Benficiary_Covered</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings>
+        <Position x="689.9999" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_RA_OA</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings>
+        <Position x="690" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_OSTEOPRS</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings>
+        <Position x="690" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_ISCHMCHT</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings>
+        <Position x="690" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_DIABETES</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings>
+        <Position x="690" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_CHRNKIDN</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings>
+        <Position x="690" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_DEPRESSN</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings>
+        <Position x="690" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_COPD</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings>
+        <Position x="690" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_CNCR</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_c5d41a9ebcaf4b9dae6f8aa4c91d5915_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_c2de0ffaaf3f46e19c5da29c96914057_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_576878f85bfe465e96b8d9a73c3b779a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_5c54a6a5d887421f8894cb9b1b45c170_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_e172e02564b846ce91922bafafc4d854_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings>
+        <Position x="450" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_CHF</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="450.0001" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">SP_ALZHDMTA</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="449.9999" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">BENE_ESRD_IND</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings>
+        <Position x="450" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">BENE_RACE_CD</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings>
+        <Position x="449.9999" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">BENE_SEX_IDENT_CD</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="90.00002" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pruthvinathjeripityv\AppData\Local\Temp\Engine_7684_975d6e9ae871425390e03cb571fd3a89_\Engine_6328_314d7c2fbd3847109d6061d991f05333_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="462" y="90.00001" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ChiSquare">True</Value>
+          <Value name="Var1 Chi">Length_Of_Stay</Value>
+          <Value name="Var2 Chi">Age_Bins</Value>
+          <Value name="NoChiSquare">False</Value>
+          <Value name="Var1">DESYNPUF_ID</Value>
+          <Value name="Var2">DESYNPUF_ID</Value>
+          <Value name="Var3" />
+          <Value name="Var4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Report" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Report" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Report" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Report" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Report" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Report" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Report" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Report" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Report" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Report" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Report" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Report" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Report" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Report" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Report" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Report" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Report" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Tests</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

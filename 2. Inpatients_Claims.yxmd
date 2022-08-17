@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>my_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DESYNPUF_ID" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="CLM_ID" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="SEGMENT" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="PRVDR_NUM" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="CLM_PMT_AMT" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="NCH_PRMRY_PYR_CLM_PD_AMT" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="AT_PHYSN_NPI" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="OP_PHYSN_NPI" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="OT_PHYSN_NPI" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="CLM_ADMSN_DT" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ADMTNG_ICD9_DGNS_CD" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="CLM_PASS_THRU_PER_DIEM_AMT" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="NCH_BENE_IP_DDCTBL_AMT" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="NCH_BENE_PTA_COINSRNC_LBLTY_AM" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="NCH_BENE_BLOOD_DDCTBL_LBLTY_AM" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="CLM_UTLZTN_DAY_CNT" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="NCH_BENE_DSCHRG_DT" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="CLM_DRG_CD" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_1" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_2" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_3" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_4" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_5" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_6" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_7" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_8" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_9" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_DGNS_CD_10" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_PRCDR_CD_1" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_PRCDR_CD_2" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_PRCDR_CD_3" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_PRCDR_CD_4" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_PRCDR_CD_5" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="ICD9_PRCDR_CD_6" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+            <Field name="Length_of_stay" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Analysed Files\my_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CLM_PMT_AMT" selected="True" type="Float" size="4" />
+            <SelectField field="NCH_PRMRY_PYR_CLM_PD_AMT" selected="True" type="Float" size="4" />
+            <SelectField field="AT_PHYSN_NPI" selected="False" />
+            <SelectField field="OP_PHYSN_NPI" selected="False" />
+            <SelectField field="OT_PHYSN_NPI" selected="False" />
+            <SelectField field="CLM_ADMSN_DT" selected="False" />
+            <SelectField field="CLM_PASS_THRU_PER_DIEM_AMT" selected="True" type="Float" size="4" />
+            <SelectField field="NCH_BENE_IP_DDCTBL_AMT" selected="True" type="Float" size="4" />
+            <SelectField field="NCH_BENE_PTA_COINSRNC_LBLTY_AM" selected="True" type="Float" size="4" />
+            <SelectField field="NCH_BENE_BLOOD_DDCTBL_LBLTY_AM" selected="True" type="Float" size="4" />
+            <SelectField field="CLM_UTLZTN_DAY_CNT" selected="True" type="Float" size="4" />
+            <SelectField field="NCH_BENE_DSCHRG_DT" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_3" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_4" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_5" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_6" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_7" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_8" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_9" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_10" selected="False" />
+            <SelectField field="ICD9_PRCDR_CD_2" selected="False" />
+            <SelectField field="ICD9_PRCDR_CD_3" selected="False" />
+            <SelectField field="ICD9_PRCDR_CD_4" selected="False" />
+            <SelectField field="ICD9_PRCDR_CD_5" selected="False" />
+            <SelectField field="ICD9_PRCDR_CD_6" selected="False" />
+            <SelectField field="Length_of_stay" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="246" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine_6448_4f14a334623647e79de6fb34a34d69bd_\Engine_1392_9db376544f4049b3973ca03c6596ee74_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="306" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[NCH_BENE_IP_DDCTBL_AMT]+[NCH_BENE_PTA_COINSRNC_LBLTY_AM]+[NCH_BENE_BLOOD_DDCTBL_LBLTY_AM]" field="IP_Bene_Resp_Amt" size="4" type="Float" />
+            <FormulaField expression="[CLM_PMT_AMT]+[CLM_UTLZTN_DAY_CNT]*[CLM_PASS_THRU_PER_DIEM_AMT]" field="IP_Reimburse" size="4" type="Float" />
+            <FormulaField expression="IF Contains([ICD9_DGNS_CD_1], &quot;V&quot;) OR Contains([ICD9_DGNS_CD_1], &quot;E&quot;) THEN 0&#xA;&#xA;ELSE Left([ICD9_DGNS_CD_1], 3)&#xA;ENDIF" field="ICD9_CD1" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF Contains([ADMTNG_ICD9_DGNS_CD], &quot;V&quot;) OR Contains([ADMTNG_ICD9_DGNS_CD], &quot;E&quot;) THEN 0&#xA;&#xA;ELSE Left([ADMTNG_ICD9_DGNS_CD], 3)&#xA;ENDIF" field="Admit_ICD9_Code" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF Contains([ICD9_DGNS_CD_2], &quot;V&quot;) OR Contains([ICD9_DGNS_CD_2], &quot;E&quot;) THEN 0&#xA;&#xA;ELSE Left([ICD9_DGNS_CD_2], 3)&#xA;ENDIF" field="ICD9_CD2" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IP_Bene_Resp_Amt = [NCH_BENE_IP_DDCTBL_AMT]+[NCH_BENE_PTA_COINSRNC_LBLTY_AM]+[NC...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="618" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CLM_ID" selected="False" />
+            <SelectField field="PRVDR_NUM" selected="False" />
+            <SelectField field="CLM_PMT_AMT" selected="False" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD" selected="False" />
+            <SelectField field="CLM_PASS_THRU_PER_DIEM_AMT" selected="False" />
+            <SelectField field="NCH_BENE_IP_DDCTBL_AMT" selected="False" />
+            <SelectField field="NCH_BENE_PTA_COINSRNC_LBLTY_AM" selected="False" />
+            <SelectField field="NCH_BENE_BLOOD_DDCTBL_LBLTY_AM" selected="False" />
+            <SelectField field="CLM_UTLZTN_DAY_CNT" selected="False" />
+            <SelectField field="CLM_DRG_CD" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_1" selected="False" />
+            <SelectField field="ICD9_DGNS_CD_2" selected="False" />
+            <SelectField field="ICD9_PRCDR_CD_1" selected="False" />
+            <SelectField field="ICD9_CD1" selected="True" type="V_WString" size="11" />
+            <SelectField field="ICD9_CD2" selected="True" type="V_WString" size="11" />
+            <SelectField field="Admit_ICD9_Code" selected="True" type="V_WString" size="11" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ([ICD9_CD1] &gt;= 390 &#xA;AND [ICD9_CD1] &lt;460) &#xA;OR FLOOR([ICD9_CD1] =785)&#xA;THEN 1&#xA;&#xA;ELSEIF ([ICD9_CD1] &gt;= 460 &#xA;AND [ICD9_CD1] &lt; 520) &#xA;OR FLOOR([ICD9_CD1] =786)&#xA;THEN 2&#xA;&#xA;&#xA;ELSEIF ([ICD9_CD1] &gt;= 520 &#xA;AND [ICD9_CD1] &lt; 580) &#xA;OR FLOOR([ICD9_CD1] =787)&#xA;THEN 3&#xA;&#xA;ELSEIF FLOOR([ICD9_CD1] = 250) THEN 4&#xA;&#xA;ELSEIF ([ICD9_CD1] &gt;= 800 &#xA;AND [ICD9_CD1] &lt; 1000) &#xA;THEN 5&#xA;&#xA;ELSEIF ([ICD9_CD1] &gt;= 710 &#xA;AND [ICD9_CD1] &lt; 740) &#xA;THEN 6&#xA;&#xA;ELSEIF ([ICD9_CD1] &gt;= 580 &#xA;AND [ICD9_CD1] &lt; 630) &#xA;OR FLOOR([ICD9_CD1] =788)&#xA;THEN 7&#xA;&#xA;ELSEIF ([ICD9_CD1] &gt;= 140 &#xA;AND [ICD9_CD1] &lt; 240) &#xA;THEN 8&#xA;&#xA;&#xA;ELSE 0&#xA;ENDIF&#xA;&#xA;" field="ICD9_CD1" size="4" type="Float" />
+            <FormulaField expression="IF ([Admit_ICD9_Code] &gt;= 390 &#xA;AND [Admit_ICD9_Code] &lt;460) &#xA;OR FLOOR([Admit_ICD9_Code] =785)&#xA;THEN 1&#xA;&#xA;ELSEIF ([Admit_ICD9_Code] &gt;= 460 &#xA;AND [Admit_ICD9_Code] &lt; 520) &#xA;OR FLOOR([Admit_ICD9_Code] =786)&#xA;THEN 2&#xA;&#xA;&#xA;ELSEIF ([Admit_ICD9_Code] &gt;= 520 &#xA;AND [Admit_ICD9_Code] &lt; 580) &#xA;OR FLOOR([Admit_ICD9_Code] =787)&#xA;THEN 3&#xA;&#xA;ELSEIF FLOOR([Admit_ICD9_Code] = 250) THEN 4&#xA;&#xA;ELSEIF ([Admit_ICD9_Code] &gt;= 800 &#xA;AND [Admit_ICD9_Code] &lt; 1000) &#xA;THEN 5&#xA;&#xA;ELSEIF ([Admit_ICD9_Code] &gt;= 710 &#xA;AND [Admit_ICD9_Code] &lt; 740) &#xA;THEN 6&#xA;&#xA;ELSEIF ([Admit_ICD9_Code] &gt;= 580 &#xA;AND [Admit_ICD9_Code] &lt; 630) &#xA;OR FLOOR([Admit_ICD9_Code] =788)&#xA;THEN 7&#xA;&#xA;ELSEIF ([Admit_ICD9_Code] &gt;= 140 &#xA;AND [Admit_ICD9_Code] &lt; 240) &#xA;THEN 8&#xA;&#xA;&#xA;ELSE 0&#xA;ENDIF&#xA;&#xA;" field="Admit_ICD9_Code" size="4" type="Float" />
+            <FormulaField expression="IF ([ICD9_CD2] &gt;= 390 &#xA;AND [ICD9_CD2] &lt;460) &#xA;OR FLOOR([ICD9_CD2] =785)&#xA;THEN 1&#xA;&#xA;ELSEIF ([ICD9_CD2] &gt;= 460 &#xA;AND [ICD9_CD2] &lt; 520) &#xA;OR FLOOR([ICD9_CD2] =786)&#xA;THEN 2&#xA;&#xA;&#xA;ELSEIF ([ICD9_CD2] &gt;= 520 &#xA;AND [ICD9_CD2] &lt; 580) &#xA;OR FLOOR([ICD9_CD2] =787)&#xA;THEN 3&#xA;&#xA;ELSEIF FLOOR([ICD9_CD2] = 250) THEN 4&#xA;&#xA;ELSEIF ([ICD9_CD2] &gt;= 800 &#xA;AND [ICD9_CD2] &lt; 1000) &#xA;THEN 5&#xA;&#xA;ELSEIF ([ICD9_CD2] &gt;= 710 &#xA;AND [ICD9_CD2] &lt; 740) &#xA;THEN 6&#xA;&#xA;ELSEIF ([ICD9_CD2] &gt;= 580 &#xA;AND [ICD9_CD2] &lt; 630) &#xA;OR FLOOR([ICD9_CD2] =788)&#xA;THEN 7&#xA;&#xA;ELSEIF ([ICD9_CD2] &gt;= 140 &#xA;AND [ICD9_CD2] &lt; 240) &#xA;THEN 8&#xA;&#xA;&#xA;ELSE 0&#xA;ENDIF" field="ICD9_CD2" size="4" type="Float" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ICD9_CD1 = IF ([ICD9_CD1] &gt;= 390 
+AND [ICD9_CD1] &lt;460) 
+OR FLOOR([ICD9_CD1] =785...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DESYNPUF_ID" selected="True" />
+            <SelectField field="CLM_ID" selected="True" />
+            <SelectField field="SEGMENT" selected="True" />
+            <SelectField field="PRVDR_NUM" selected="True" />
+            <SelectField field="CLM_PMT_AMT" selected="True" />
+            <SelectField field="NCH_PRMRY_PYR_CLM_PD_AMT" selected="True" />
+            <SelectField field="ADMTNG_ICD9_DGNS_CD" selected="True" />
+            <SelectField field="CLM_PASS_THRU_PER_DIEM_AMT" selected="True" />
+            <SelectField field="NCH_BENE_IP_DDCTBL_AMT" selected="True" />
+            <SelectField field="NCH_BENE_PTA_COINSRNC_LBLTY_AM" selected="True" />
+            <SelectField field="NCH_BENE_BLOOD_DDCTBL_LBLTY_AM" selected="True" />
+            <SelectField field="CLM_UTLZTN_DAY_CNT" selected="True" />
+            <SelectField field="CLM_DRG_CD" selected="True" />
+            <SelectField field="ICD9_DGNS_CD_1" selected="True" />
+            <SelectField field="ICD9_DGNS_CD_2" selected="True" />
+            <SelectField field="ICD9_PRCDR_CD_1" selected="True" />
+            <SelectField field="Length_of_stay" selected="True" />
+            <SelectField field="IP_Bene_Resp_Amt" selected="True" />
+            <SelectField field="IP_Reimburse" selected="True" />
+            <SelectField field="ICD9_CD1" selected="True" type="Float" size="4" />
+            <SelectField field="ICD9_CD2" selected="True" type="Float" size="4" />
+            <SelectField field="Admit_ICD9_Code" selected="True" type="Float" size="4" />
+            <SelectField field="ICD9_DGNS_CD_3" selected="True" />
+            <SelectField field="ICD9_DGNS_CD_4" selected="True" />
+            <SelectField field="ICD9_DGNS_CD_5" selected="True" />
+            <SelectField field="ICD9_DGNS_CD_6" selected="True" />
+            <SelectField field="ICD9_DGNS_CD_7" selected="True" />
+            <SelectField field="ICD9_DGNS_CD_8" selected="True" />
+            <SelectField field="ICD9_DGNS_CD_9" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [ICD9_CD1] = &quot;1&quot; THEN &quot;Circulatory&quot;&#xA;ELSEIF [ICD9_CD1] = &quot;2&quot; THEN &quot;Respiratory&quot;&#xA;ELSEIF [ICD9_CD1] = &quot;3&quot; THEN &quot;Digestive&quot;&#xA;ELSEIF [ICD9_CD1] = &quot;4&quot; THEN &quot;Diabetes&quot;&#xA;ELSEIF [ICD9_CD1] = &quot;5&quot; THEN &quot;Injury&quot;&#xA;ELSEIF [ICD9_CD1] = &quot;6&quot; THEN &quot;Musculoskeletal&quot;&#xA;ELSEIF [ICD9_CD1] = &quot;7&quot; THEN &quot;Genitourinary&quot;&#xA;ELSEIF [ICD9_CD1] = &quot;8&quot; THEN &quot;Neoplasms&quot;&#xA;ELSE &quot;Others&quot;&#xA;ENDIF&#xA;" field="ICD9_CD1" size="11" type="V_WString" />
+            <FormulaField expression="IF [Admit_ICD9_Code] = &quot;1&quot; THEN &quot;Circulatory&quot;&#xA;ELSEIF [Admit_ICD9_Code] = &quot;2&quot; THEN &quot;Respiratory&quot;&#xA;ELSEIF [Admit_ICD9_Code] = &quot;3&quot; THEN &quot;Digestive&quot;&#xA;ELSEIF [Admit_ICD9_Code] = &quot;4&quot; THEN &quot;Diabetes&quot;&#xA;ELSEIF [Admit_ICD9_Code] = &quot;5&quot; THEN &quot;Injury&quot;&#xA;ELSEIF [Admit_ICD9_Code] = &quot;6&quot; THEN &quot;Musculoskeletal&quot;&#xA;ELSEIF [Admit_ICD9_Code] = &quot;7&quot; THEN &quot;Genitourinary&quot;&#xA;ELSEIF [Admit_ICD9_Code] = &quot;8&quot; THEN &quot;Neoplasms&quot;&#xA;ELSE &quot;Others&quot;&#xA;ENDIF" field="Admit_ICD9_Code" size="11" type="V_WString" />
+            <FormulaField expression="IF [ICD9_CD2] = &quot;1&quot; THEN &quot;Circulatory&quot;&#xA;ELSEIF [ICD9_CD2] = &quot;2&quot; THEN &quot;Respiratory&quot;&#xA;ELSEIF [ICD9_CD2] = &quot;3&quot; THEN &quot;Digestive&quot;&#xA;ELSEIF [ICD9_CD2] = &quot;4&quot; THEN &quot;Diabetes&quot;&#xA;ELSEIF [ICD9_CD2] = &quot;5&quot; THEN &quot;Injury&quot;&#xA;ELSEIF [ICD9_CD2] = &quot;6&quot; THEN &quot;Musculoskeletal&quot;&#xA;ELSEIF [ICD9_CD2] = &quot;7&quot; THEN &quot;Genitourinary&quot;&#xA;ELSEIF [ICD9_CD2] = &quot;8&quot; THEN &quot;Neoplasms&quot;&#xA;ELSE &quot;Others&quot;&#xA;ENDIF&#xA;" field="ICD9_CD2" size="11" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ICD9_CD1 = IF [ICD9_CD1] = "1" THEN "Circulatory"
+ELSEIF [ICD9_CD1] = "2" THEN "...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine_6448_4f14a334623647e79de6fb34a34d69bd_\Engine_1392_34fe7be47e2041b5821bc97f0069f10e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="846" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="DESYNPUF_ID" action="GroupBy" rename="DESYNPUF_ID" />
+            <SummarizeField field="NCH_PRMRY_PYR_CLM_PD_AMT" action="Sum" rename="Sum_NCH_PRMRY_PYR_CLM_PD_AMT" />
+            <SummarizeField field="Length_of_stay" action="Sum" rename="Sum_Length_of_stay" />
+            <SummarizeField field="IP_Bene_Resp_Amt" action="Max" rename="Max_IP_Bene_Resp_Amt" />
+            <SummarizeField field="IP_Reimburse" action="Sum" rename="Sum_IP_Reimburse" />
+            <SummarizeField field="ICD9_CD1" action="Max" rename="Max_ICD9_CD1" />
+            <SummarizeField field="ICD9_CD2" action="Max" rename="Max_ICD9_CD2" />
+            <SummarizeField field="Admit_ICD9_Code" action="Max" rename="Max_Admit_ICD9_Code" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine_6448_4f14a334623647e79de6fb34a34d69bd_\Engine_1392_f8d93158eb6c47b5bf220f61d588b521_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1014" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Inpatient_claims_cleaned.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Inpatient_claims_cleaned.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Inpatients_Claims</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

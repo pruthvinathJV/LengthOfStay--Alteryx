@@ -1,0 +1,904 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DESYNPUF_ID" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENE_BIRTH_DT" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENE_DEATH_DT" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENE_SEX_IDENT_CD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENE_RACE_CD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENE_ESRD_IND" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_STATE_CODE" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENE_COUNTY_CD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENE_HI_CVRAGE_TOT_MONS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENE_SMI_CVRAGE_TOT_MONS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENE_HMO_CVRAGE_TOT_MONS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="PLAN_CVRG_MOS_NUM" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_ALZHDMTA" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_CHF" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_CHRNKIDN" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_CNCR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_COPD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_DEPRESSN" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_DIABETES" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_ISCHMCHT" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_OSTEOPRS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_RA_OA" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="SP_STRKETIA" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="MEDREIMB_IP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENRES_IP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="PPPYMT_IP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="MEDREIMB_OP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENRES_OP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="PPPYMT_OP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="MEDREIMB_CAR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="BENRES_CAR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+            <Field name="PPPYMT_CAR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2008_Beneficiary_Summary_File_Sample_1 (1).csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DESYNPUF_ID" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_BIRTH_DT" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_DEATH_DT" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_SEX_IDENT_CD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_RACE_CD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_ESRD_IND" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_STATE_CODE" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_COUNTY_CD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_HI_CVRAGE_TOT_MONS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_SMI_CVRAGE_TOT_MONS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_HMO_CVRAGE_TOT_MONS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="PLAN_CVRG_MOS_NUM" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_ALZHDMTA" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_CHF" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_CHRNKIDN" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_CNCR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_COPD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_DEPRESSN" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_DIABETES" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_ISCHMCHT" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_OSTEOPRS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_RA_OA" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_STRKETIA" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="MEDREIMB_IP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENRES_IP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="PPPYMT_IP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="MEDREIMB_OP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENRES_OP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="PPPYMT_OP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="MEDREIMB_CAR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENRES_CAR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="PPPYMT_CAR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2009_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DESYNPUF_ID" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_BIRTH_DT" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_DEATH_DT" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_SEX_IDENT_CD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_RACE_CD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_ESRD_IND" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_STATE_CODE" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_COUNTY_CD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_HI_CVRAGE_TOT_MONS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_SMI_CVRAGE_TOT_MONS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENE_HMO_CVRAGE_TOT_MONS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="PLAN_CVRG_MOS_NUM" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_ALZHDMTA" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_CHF" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_CHRNKIDN" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_CNCR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_COPD" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_DEPRESSN" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_DIABETES" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_ISCHMCHT" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_OSTEOPRS" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_RA_OA" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="SP_STRKETIA" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="MEDREIMB_IP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENRES_IP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="PPPYMT_IP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="MEDREIMB_OP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENRES_OP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="PPPYMT_OP" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="MEDREIMB_CAR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="BENRES_CAR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+            <Field name="PPPYMT_CAR" size="254" source="File:\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\DE1_0_2010_Beneficiary_Summary_File_Sample_1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="222" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BENE_SEX_IDENT_CD" selected="True" type="V_WString" size="254" />
+            <SelectField field="BENE_HI_CVRAGE_TOT_MONS" selected="True" type="Int32" size="4" />
+            <SelectField field="BENE_SMI_CVRAGE_TOT_MONS" selected="True" type="Int32" size="4" />
+            <SelectField field="BENE_HMO_CVRAGE_TOT_MONS" selected="True" type="Int32" size="4" />
+            <SelectField field="PLAN_CVRG_MOS_NUM" selected="True" type="Int32" size="4" />
+            <SelectField field="MEDREIMB_IP" selected="False" type="Int64" size="8" />
+            <SelectField field="BENRES_IP" selected="False" type="Int64" size="8" />
+            <SelectField field="PPPYMT_IP" selected="False" type="Int64" size="8" />
+            <SelectField field="MEDREIMB_OP" selected="False" type="Int16" size="2" />
+            <SelectField field="BENRES_OP" selected="False" type="Int16" size="2" />
+            <SelectField field="PPPYMT_OP" selected="False" type="Int16" size="2" />
+            <SelectField field="MEDREIMB_CAR" selected="False" type="Int16" size="2" />
+            <SelectField field="BENRES_CAR" selected="False" type="Int16" size="2" />
+            <SelectField field="PPPYMT_CAR" selected="False" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="882" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>BENE_BIRTH_DT</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyyMMdd</Format>
+          <OutputFieldName>BENE_Birth_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert BENE_BIRTH_DT From:
+yyyyMMdd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="966" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>BENE_DEATH_DT</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyyMMdd</Format>
+          <OutputFieldName>Bene_Death_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert BENE_DEATH_DT From:
+yyyyMMdd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1218" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([Bene_death_date_new], [BENE_Birth_Date],&quot;years&quot;)" field="Age" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Age = DateTimeDiff([Bene_death_date_new], [BENE_Birth_Date],"years")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1122" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF isNull([Bene_Death_Date]) THEN ToDateTime('2010-12-31') ELSE [Bene_Death_Date] ENDIF" field="Bene_death_date_new" size="10" type="Date" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Bene_death_date_new = IF isNull([Bene_Death_Date]) THEN ToDateTime('2010-12-31')...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings>
+        <Position x="1314" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"DESYNPUF_ID","BENE_BIRTH_DT","BENE_DEATH_DT","BENE_SEX_IDENT_CD","BENE_RACE_CD","BENE_ESRD_IND","SP_STATE_CODE","BENE_COUNTY_CD","SP_ALZHDMTA","SP_CHF","SP_CHRNKIDN","SP_CNCR","SP_COPD","SP_DEPRESSN","SP_DIABETES","SP_ISCHMCHT","SP_OSTEOPRS","SP_RA_OA","SP_STRKETIA","BENE_Birth_Date","Bene_Death_Date","Bene_death_date_new","Age"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1506" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BENE_BIRTH_DT" selected="False" />
+            <SelectField field="BENE_DEATH_DT" selected="False" />
+            <SelectField field="SP_STATE_CODE" selected="False" />
+            <SelectField field="BENE_COUNTY_CD" selected="False" />
+            <SelectField field="BENE_Birth_Date" selected="False" />
+            <SelectField field="Bene_Death_Date" selected="False" />
+            <SelectField field="Bene_death_date_new" selected="False" />
+            <SelectField field="Age" selected="False" />
+            <SelectField field="Bene_Reimburse_IP" selected="False" />
+            <SelectField field="Bene_Resp_IP" selected="False" />
+            <SelectField field="Prim_Payer_Reimb_IP" selected="False" />
+            <SelectField field="BENE_HI_CVRAGE_TOT_MONS" selected="False" />
+            <SelectField field="BENE_SMI_CVRAGE_TOT_MONS" selected="False" />
+            <SelectField field="BENE_HMO_CVRAGE_TOT_MONS" selected="False" />
+            <SelectField field="PLAN_CVRG_MOS_NUM" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1602" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine2_8096_29f5af565d65534ba7830f7f1e255660_\Engine_8096_4b379d238f0abb49b091897c7017d69b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1410" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Age] &lt; 25 THEN '&lt;25yrs' ELSEIF [Age] &gt;=25 AND [Age] &lt;50 THEN '25-50yrs' &#xA;ELSEIF [Age] &gt;=50 AND [Age] &lt;75 THEN '50-75yrs' ELSE '&gt;75yrs' ENDIF" field="Age_Bins" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Age_Bins = IF [Age] &lt; 25 THEN '&lt;25yrs' ELSEIF [Age] &gt;=25 AND [Age] &lt;50 THEN '25-...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Bene_Covered_Mnths" selected="True" type="Int64" size="8" />
+            <SelectField field="Right_DESYNPUF_ID" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine2_8096_29f5af565d65534ba7830f7f1e255660_\Engine_8096_e0b632046152ba40b3d49522d257fc98~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ([BENE_HI_CVRAGE_TOT_MONS]+[BENE_SMI_CVRAGE_TOT_MONS]+[BENE_HMO_CVRAGE_TOT_MONS]+[PLAN_CVRG_MOS_NUM] &lt;=48&#xA;AND [BENE_HI_CVRAGE_TOT_MONS]+[BENE_SMI_CVRAGE_TOT_MONS]+[BENE_HMO_CVRAGE_TOT_MONS]+[PLAN_CVRG_MOS_NUM] &gt;32 )&#xA;&#xA;THEN 12&#xA;&#xA;ELSEIF ([BENE_HI_CVRAGE_TOT_MONS]+[BENE_SMI_CVRAGE_TOT_MONS]+[BENE_HMO_CVRAGE_TOT_MONS]+[PLAN_CVRG_MOS_NUM] &lt;=32 &#xA;AND [BENE_HI_CVRAGE_TOT_MONS]+[BENE_SMI_CVRAGE_TOT_MONS]+[BENE_HMO_CVRAGE_TOT_MONS]+[PLAN_CVRG_MOS_NUM] &gt; 20)&#xA;&#xA;THEN 6&#xA;&#xA;ELSE 0&#xA;&#xA;ENDIF&#xA;&#xA;" field="Bene_Covered_Mnths" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Bene_Covered_Mnths = IF ([BENE_HI_CVRAGE_TOT_MONS]+[BENE_SMI_CVRAGE_TOT_MONS]+[B...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="690" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="DESYNPUF_ID" action="GroupBy" rename="DESYNPUF_ID" />
+            <SummarizeField field="BENE_BIRTH_DT" action="First" rename="BENE_BIRTH_DT" />
+            <SummarizeField field="BENE_DEATH_DT" action="First" rename="BENE_DEATH_DT" />
+            <SummarizeField field="BENE_SEX_IDENT_CD" action="First" rename="BENE_SEX_IDENT_CD" />
+            <SummarizeField field="BENE_RACE_CD" action="First" rename="BENE_RACE_CD" />
+            <SummarizeField field="BENE_ESRD_IND" action="First" rename="BENE_ESRD_IND" />
+            <SummarizeField field="SP_STATE_CODE" action="First" rename="SP_STATE_CODE" />
+            <SummarizeField field="BENE_COUNTY_CD" action="First" rename="BENE_COUNTY_CD" />
+            <SummarizeField field="SP_ALZHDMTA" action="Mode" rename="SP_ALZHDMTA" />
+            <SummarizeField field="SP_CHF" action="Mode" rename="SP_CHF" />
+            <SummarizeField field="SP_CHRNKIDN" action="Mode" rename="SP_CHRNKIDN" />
+            <SummarizeField field="SP_CNCR" action="Mode" rename="SP_CNCR" />
+            <SummarizeField field="SP_COPD" action="Mode" rename="SP_COPD" />
+            <SummarizeField field="SP_DEPRESSN" action="Mode" rename="SP_DEPRESSN" />
+            <SummarizeField field="SP_DIABETES" action="Mode" rename="SP_DIABETES" />
+            <SummarizeField field="SP_ISCHMCHT" action="Mode" rename="SP_ISCHMCHT" />
+            <SummarizeField field="SP_OSTEOPRS" action="Mode" rename="SP_OSTEOPRS" />
+            <SummarizeField field="SP_RA_OA" action="Mode" rename="SP_RA_OA" />
+            <SummarizeField field="SP_STRKETIA" action="Mode" rename="SP_STRKETIA" />
+            <SummarizeField field="Bene_Covered_Mnths" action="Avg" rename="Bene_Covered_Mnths" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine2_8096_29f5af565d65534ba7830f7f1e255660_\Engine_8096_1224a829a993ba42aa243c2b08fdf0c1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="594" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BENE_HI_CVRAGE_TOT_MONS" selected="False" />
+            <SelectField field="BENE_SMI_CVRAGE_TOT_MONS" selected="False" />
+            <SelectField field="BENE_HMO_CVRAGE_TOT_MONS" selected="False" />
+            <SelectField field="PLAN_CVRG_MOS_NUM" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine2_8096_29f5af565d65534ba7830f7f1e255660_\Engine_8096_37e486fcf80dd4418e9e70c868bd7ee1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1614" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Final\Beneficiary_Summary_Cleaned.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Beneficiary_Summary_Cleaned.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="402" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">model</Value>
+          <Value name="curToggle">toggle-main</Value>
+          <Value name="display.static">True</Value>
+          <Value name="set_seed_cv">True</Value>
+          <Value name="showClassificationCV">True</Value>
+          <Value name="showWhenTreePlotAvailable">True</Value>
+          <Value name="showWhenAlgorithmAvailable">True</Value>
+          <Value name="use.gini">True</Value>
+          <Value name="use.information">False</Value>
+          <Value name="usesurrogate.0">True</Value>
+          <Value name="usesurrogate.1">False</Value>
+          <Value name="usesurrogate.2">False</Value>
+          <Value name="total.correct">True</Value>
+          <Value name="percent.correct">False</Value>
+          <Value name="model_type">auto</Value>
+          <Value name="auto">True</Value>
+          <Value name="classification">False</Value>
+          <Value name="regression">False</Value>
+          <Value name="tree_summary">Counts</Value>
+          <Value name="Counts">True</Value>
+          <Value name="Proportions">False</Value>
+          <Value name="tree_plot_size">tree.inches</Value>
+          <Value name="tree.inches">True</Value>
+          <Value name="tree.centimeters">False</Value>
+          <Value name="pruning_plot_size">prune.inches</Value>
+          <Value name="prune.inches">True</Value>
+          <Value name="prune.centimeters">False</Value>
+          <Value name="Model Name">Decision_Tree_5</Value>
+          <Value name="Y Var">Length_Of_Stay</Value>
+          <Value name="X Vars">num_visits,HCC_score,BENE_SEX_IDENT_CD_Male,BENE_RACE_CD_Hispanic,BENE_RACE_CD_Others,BENE_RACE_CD_White,BENE_ESRD_IND_Yes,SP_ALZHDMTA_Yes,SP_CHF_Yes,SP_CHRNKIDN_Yes,SP_CNCR_Yes,SP_COPD_Yes,SP_DEPRESSN_Yes,SP_DIABETES_Yes,SP_ISCHMCHT_Yes,SP_OSTEOPRS_Yes,SP_RA_OA_Yes,SP_STRKETIA_Yes,Benficiary_Covered_Yes,Age_Bins_50-75yrs,Age_Bins_&gt;75yrs,ADMTNG_ICD9_DGNS_CD_Diabetes,ADMTNG_ICD9_DGNS_CD_Digestive,ADMTNG_ICD9_DGNS_CD_Genitourinary,ADMTNG_ICD9_DGNS_CD_Injury,ADMTNG_ICD9_DGNS_CD_Musculoskeletal,ADMTNG_ICD9_DGNS_CD_Neoplasms,ADMTNG_ICD9_DGNS_CD_Respiratory,ADMTNG_ICD9_DGNS_CD_Supplementary factors,ADMTNG_ICD9_DGNS_CD_others</Value>
+          <Value name="model.algorithm">rpart</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights" />
+          <Value name="splitting_criteria">use.gini</Value>
+          <Value name="surrogate_use">usesurrogate.0</Value>
+          <Value name="surrogate_split_criteria">total.correct</Value>
+          <Value name="min.split">20</Value>
+          <Value name="min.bucket">7</Value>
+          <Value name="xval.folds">10</Value>
+          <Value name="max.depth">20</Value>
+          <Value name="max.bins">
+          </Value>
+          <Value name="set_cp">False</Value>
+          <Value name="cp">0</Value>
+          <Value name="rules">False</Value>
+          <Value name="bands_check">False</Value>
+          <Value name="bands">10</Value>
+          <Value name="subset">False</Value>
+          <Value name="winnow">False</Value>
+          <Value name="GlobalPruning">False</Value>
+          <Value name="fuzzyThreshold">False</Value>
+          <Value name="earlyStopping">False</Value>
+          <Value name="trials">1</Value>
+          <Value name="CF">0.25</Value>
+          <Value name="minCases">2</Value>
+          <Value name="sample">0</Value>
+          <Value name="seed">1</Value>
+          <Value name="use_cv">False</Value>
+          <Value name="numberFolds">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="stratified">False</Value>
+          <Value name="cv_seed">1</Value>
+          <Value name="tree.plot">False</Value>
+          <Value name="Branch Dist">False</Value>
+          <Value name="tree.in.w">5.5</Value>
+          <Value name="tree.in.h">5.5</Value>
+          <Value name="tree.cm.w">13</Value>
+          <Value name="tree.cm.h">14.95</Value>
+          <Value name="tree.graph.resolution">1x</Value>
+          <Value name="tree.pointsize">8</Value>
+          <Value name="prune.plot">False</Value>
+          <Value name="prune.in.w">5.5</Value>
+          <Value name="prune.in.h">5.5</Value>
+          <Value name="prune.cm.w">13</Value>
+          <Value name="prune.cm.h">14.95</Value>
+          <Value name="prune.graph.resolution">1x</Value>
+          <Value name="prune.pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="678" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine2_8096_29f5af565d65534ba7830f7f1e255660_\Engine_8096_15661469d84c364ca5e3cc77a84ff39d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="18" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output26" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Beneficiary Summary Analysis</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
