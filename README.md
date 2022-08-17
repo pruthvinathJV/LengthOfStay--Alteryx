@@ -25,5 +25,6 @@ Workflow in Alteryx:
 4. in approach 1, taken dependent variable as the continuous variable --> Linear Regression Model
 5. in approach 2, converted the dependent variable into a categorical variable --> Random forest and Decision tree models
 6. After training the data set, ran the model on test data (created 80:20 samples)
-7. still the model can be improved
+7. compared between different models
+8. still the model can be improved
    
